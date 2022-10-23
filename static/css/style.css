@@ -23,6 +23,7 @@ html, body {
 
 body {
     margin: 0;
+    z-index: -99;
     min-height: 100%;
     min-width: 100%;
     background:-moz-linear-gradient(120deg, rgba(40, 0, 31, 1) 0%, rgba(7, 2, 40, 1) 100%); 
@@ -32,10 +33,7 @@ body {
     background:-ms-linear-gradient(120deg, rgba(40, 0, 31, 1) 0%, rgba(7, 2, 40, 1) 100%);
     background:linear-gradient(120deg, rgba(40, 0, 31, 1) 0%, rgba(7, 2, 40, 1) 100%);
 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    background-size:cover;
     background-repeat:no-repeat;
 }
 
@@ -54,7 +52,7 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    height: 100vh;
+    height: 15vh;
     background: url(https://wallpaper.wiki/wp-content/uploads/2017/05/wallpaper.wiki-Beautiful-Full-HD-Wallpaper-Download-Free-PIC-WPE0010098.jpg) no-repeat 50% 50%;
     background-size: cover;
 }
@@ -96,14 +94,6 @@ nav ul {
     transition: 1s;
 }
 
-.vl {
-    transition: 1.5s;
-}
-
-.vl2 {
-    transition: 0.5s;
-}
-
 nav.black ul {
     background: #000;
 }
@@ -129,6 +119,16 @@ nav ul li a {
     cursor: pointer;
     color: #fff;
     display: none;
+}
+
+a {
+    text-decoration: none !important;
+    color: unset !important;
+}
+
+.li-left, .li-right {
+    transition: all .75s ease;
+    text-decoration: none;
 }
 
 /* previously @media */
@@ -161,29 +161,37 @@ nav ul li {
 .menu-icon {
     display: block;
 }
-
-/* @media end */
+/* previous @media end */
 /* navbar end */
 
 @media screen and (max-width: 1000px) {
     nav {
         display: none;
     }
+
+    .title {
+        transition: all .75s ease;
+        font-size: 10vw;
+    }    
 }
 
 ul.navbarul > li { max-height: 12vh;}
 ul.navbarul > li > .li-left { float: left }
 ul.navbarul > li > .li-right { float: right }
 
-#spin-in {
-    opacity: .2;
-    height: 50px;
-    width: 50px;
-    transform: translateX(0) rotate(0deg);  
+.fade-in {
+    opacity: 0;
     transition: all .75s ease;
-  }
-  
-  #spin-in.show2 {
-    transform: translateX(450px) rotate(720deg);  
+}
+
+.fade-in.show {
     opacity: 1;
-  }
+}
+
+.fade-in:hover {
+    color: #5c7cff !important;
+}
+
+#sec_1 {
+    margin-top: 10vh;
+}
