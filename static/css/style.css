@@ -185,21 +185,11 @@ ul.navbarul > li > .li-right { float: right }
 .fade-in {
     z-index: 99;
     opacity: 0;
-    width: 0vw;
     transition: all .75s ease;
 }
 
-@keyframes slide-right {
-    to {
-        transform:translateX(0);
-    }
-}
-
 .fade-in.show {
-    animation: 2s slide-right 2s forwards;
-    transform:translateX(-100%);
     opacity: 1;
-    width: 100vw;
 }
 
 .fade-in:hover {
