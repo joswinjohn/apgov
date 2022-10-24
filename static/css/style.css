@@ -169,9 +169,7 @@ nav ul li {
 /* navbar end */
 
 @media screen and (max-width: 1000px) {
-    nav {
-        /*display: none;*/
-    }
+
 
     .title {
         transition: all .75s ease;
