@@ -214,3 +214,8 @@ li > a {
 .li-right {
     text-align: right !important;
 }
+
+.justices-container div img{
+    height: 150px;
+    width: 100px;
+}
