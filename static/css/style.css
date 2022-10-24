@@ -205,7 +205,7 @@ ul.navbarul > li > .li-right { float: right }
 }
 
 li > a {
-    max-width: 45vw;
+    max-width: 40vw;
     line-height: 3vh;
 }
 
