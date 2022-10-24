@@ -76,6 +76,7 @@ header {
 }
 
 nav {
+    z-index: 999;
     position: fixed;
     width: 100%;
     line-height: 60px;
@@ -184,7 +185,7 @@ ul.navbarul > li > .li-right { float: right }
 .fade-in {
     z-index: 99;
     opacity: 0;
-    width: 0px;
+    width: 0vw;
     transition: all .75s ease;
 }
 
