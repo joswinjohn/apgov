@@ -205,5 +205,13 @@ ul.navbarul > li > .li-right { float: right }
 }
 
 li > a {
-    max-width: 40vw;
+    max-width: 50vw;
+}
+
+.li-left > a {
+    text-align: left;
+}
+
+.li-left > a {
+    text-align: right;
 }
