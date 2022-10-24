@@ -190,17 +190,14 @@ ul.navbarul > li > .li-right { float: right }
 }
 
 @keyframes slide-right {
-    from {
-      margin-left: -500px;
-    }
-  
     to {
-      margin-left: 0%;
+        transform:translateX(0);
     }
 }
 
 .fade-in.show {
-    animation: 2s slide-right;
+    animation: 2s slide-right 2s forwards;
+    transform:translateX(-100%);
     opacity: 1;
     width: 100vw;
 }
