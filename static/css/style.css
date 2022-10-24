@@ -170,7 +170,7 @@ nav ul li {
 
 @media screen and (max-width: 1000px) {
     nav {
-        display: none;
+        /*display: none;*/
     }
 
     .title {
@@ -204,4 +204,8 @@ ul.navbarul > li > .li-right { float: right }
 #title {
     opacity: 0;
     transition: all 2s ease;
+}
+
+li > a {
+    max-width: 40vw;
 }
