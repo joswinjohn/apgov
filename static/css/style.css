@@ -186,10 +186,21 @@ ul.navbarul > li > .li-right { float: right }
     z-index: 99;
     opacity: 0;
     width: 0vw;
-    transition: opacity .75s ease, width 1s linear;
+    transition: all .75s ease;
+}
+
+@keyframes slide-right {
+    from {
+      margin-left: -500px;
+    }
+  
+    to {
+      margin-left: 0%;
+    }
 }
 
 .fade-in.show {
+    animation: 2s slide-right;
     opacity: 1;
     width: 100vw;
 }
