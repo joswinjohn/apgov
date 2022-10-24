@@ -208,10 +208,10 @@ li > a {
     line-height: 3vh;
 }
 
-.li-left > a {
+.li-left {
     text-align: left !important;
 }
 
-.li-left > a {
+.li-left {
     text-align: right !important;
 }
