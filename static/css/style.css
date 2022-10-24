@@ -170,8 +170,6 @@ nav ul li {
 /* navbar end */
 
 @media screen and (max-width: 1000px) {
-
-
     .title {
         transition: all .75s ease;
         font-size: 10vw;
@@ -211,9 +209,9 @@ li > a {
 }
 
 .li-left > a {
-    text-align: left;
+    text-align: left !important;
 }
 
 .li-left > a {
-    text-align: right;
+    text-align: right !important;
 }
