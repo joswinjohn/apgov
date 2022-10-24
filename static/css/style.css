@@ -184,11 +184,13 @@ ul.navbarul > li > .li-right { float: right }
 .fade-in {
     z-index: 99;
     opacity: 0;
+    width: 0px;
     transition: all .75s ease;
 }
 
 .fade-in.show {
     opacity: 1;
+    width: 100vw;
 }
 
 .fade-in:hover {
