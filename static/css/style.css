@@ -186,8 +186,7 @@ ul.navbarul > li > .li-right { float: right }
     z-index: 99;
     opacity: 0;
     width: 0vw;
-    transition: all .75s ease;
-    transition: width 1s linear;
+    transition: opacity .75s ease, width 1s linear;
 }
 
 .fade-in.show {
