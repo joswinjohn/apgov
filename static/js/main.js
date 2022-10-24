@@ -3,6 +3,7 @@ $(document).ready(function() {
       $(".menu-icon").on("click", function() {
             $("nav ul").toggleClass("showing");
       });
+      $("#title").css('opacity', '1')
 });
 
 // Scrolling Effect
