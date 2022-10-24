@@ -160,7 +160,6 @@ nav ul li {
     box-sizing: border-box;
     width: 100%;
     padding: 24px;
-    text-align: center;
 }
 
 .menu-icon {
@@ -177,8 +176,8 @@ nav ul li {
 }
 
 ul.navbarul > li { max-height: 12vh;}
-ul.navbarul > li > .li-left > a { float: left }
-ul.navbarul > li > .li-right > a{ float: right }
+ul.navbarul > li > .li-left { float: left }
+ul.navbarul > li > .li-right { float: right }
 
 .fade-in {
     z-index: 99;
