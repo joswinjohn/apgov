@@ -14,6 +14,7 @@ $(window).on("scroll", function() {
       var vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0)
       var objects = document.getElementsByClassName('fade-in');
 
+
       if ((objects[0].getBoundingClientRect().top <= vh/1.3) && (sections_loaded == 0)) {
             fade_in(0);
             sections_loaded++;
