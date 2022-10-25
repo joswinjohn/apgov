@@ -227,8 +227,49 @@ li > a {
     height: 7em;
 }
 
+.oy-decision .decision-image figure.first {
+    margin-top: 1.5rem;
+    transform: none;
+}
+
 .oy-decision .decision-image figure.second {
     transform: translateX(100%);
+}
+
+.oy-decision .decision-image figure.third {
+    margin-top: 1.5rem;
+    transform: translateX(200%);
+}
+
+.oy-decision .decision-image figure.fourth {
+    transform: translateX(300%);
+}
+
+.oy-decision .decision-image figure.fifth {
+    margin-top: 1.5rem;
+    transform: translateX(400%);
+}
+
+.oy-decision .decision-image figure.sixth {
+    transform: translateX(500%);
+}
+
+.oy-decision .decision-image figure.seventh {
+    margin-top: 1.5rem;
+    transform: translateX(600%);
+}
+
+.oy-decision .decision-image figure figcaption .long {
+    display: none;
+}
+
+.oy-decision .decision-image figure.eighth {
+    transform: translateX(700%);
+}
+
+.oy-decision .decision-image figure.ninth {
+    margin-top: 1.5rem;
+    transform: translateX(800%);
 }
 
 .oy-decision .decision-image figure {
