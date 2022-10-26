@@ -52,7 +52,7 @@ body {
 }
 
 .section-cover {
-    margin: 0px !important;
+    margin: auto 0px auto 0px importnt !important;
     width: 100%;
 }
 
