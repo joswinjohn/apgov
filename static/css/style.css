@@ -46,6 +46,14 @@ body {
     min-height: 100vh;
 }
 
+#sections {
+    margin: 0 !important;
+}
+
+.section-cover {
+    margin: 0 !important;
+}
+
 /* navbar start */
 header {
     position: fixed;
