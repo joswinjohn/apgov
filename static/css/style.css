@@ -56,6 +56,10 @@ body {
     width: 100%;
 }
 
+#sec_1 {
+    margin-top: 15vh;
+}
+
 /* navbar start */
 header {
     position: fixed;

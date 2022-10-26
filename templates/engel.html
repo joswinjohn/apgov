@@ -13,64 +13,63 @@
         <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
     </head>
 
-    <body style="background-image: linear-gradient( rgba(0,0,0,.7), rgba(0,0,0,.7) ), url(../static/images/engelbg.jpg); background-attachment: fixed;">
+    <body style="margin: 0px !important; background-image: linear-gradient( rgba(0,0,0,.7), rgba(0,0,0,.7) ), url(../static/images/engelbg.jpg); background-attachment: fixed;">
         <div id="bg"></div>
 
-        <div class="wrapper section-cover">
-            <header>
-                <nav>
-                    <div class="menu-icon">
-                       <i class="fa fa-bars fa-2x"></i>
-                    </div>
-                    <div class="logo">
-                        <a class="text-reset text-decoration-none" href="{{ url_for('index') }}">JOSWIN JOHN</a>
-                    </div>
-                    <div class="menu">
-                       <ul class="navbarul">
-                        <li><a href="{{ url_for('engel') }}" class="li-left">Engel v. Vitale</a>                                                <a href="{{ url_for('mcdonald') }}" class="li-right">McDonald v. Chicago</a></li>
-                        <li><a href="{{ url_for('wisconsin') }}" class="li-left">Wisconsin v. Yoder</a>                                         <a href="{{ url_for('gideon') }}" class="li-right">Gideon v. Wainwright</a></li>
-                        <li><a href="{{ url_for('tinker') }}" class="li-left">Tinker v. Des Moines Independent Community School District</a>    <a href="{{ url_for('roe') }}" class="li-right">Roe v. Wade</a></li>
-                        <li><a href="{{ url_for('schenck') }}" class="li-left">Schenck v. United States</a>                                     <a href="{{ url_for('brown') }}" class="li-right">Brown v. Board of Education</a></li>
-                        <li><a href="{{ url_for('nytc') }}" class="li-left">New York Times Co. v. United States</a>                             <a href="#" class="li-right"></a></li>
-                       </ul>
-                    </div>
-                 </nav>
-            </header>
-            <div id="sections" class="container-xl d-flex flex-column content">
-                <section id="sec_1" class="section-home--intro text-light section-cover">
-                    <h1 class="title">Engel v. Vitale</h1>
-                    <p class="fst-italic" style="margin-top: 20vh;">1962</p>
-                </section>
+        <header>
+            <nav>
+                <div class="menu-icon">
+                    <i class="fa fa-bars fa-2x"></i>
+                </div>
+                <div class="logo">
+                    <a class="text-reset text-decoration-none" href="{{ url_for('index') }}">JOSWIN JOHN</a>
+                </div>
+                <div class="menu">
+                    <ul class="navbarul">
+                    <li><a href="{{ url_for('engel') }}" class="li-left">Engel v. Vitale</a>                                                <a href="{{ url_for('mcdonald') }}" class="li-right">McDonald v. Chicago</a></li>
+                    <li><a href="{{ url_for('wisconsin') }}" class="li-left">Wisconsin v. Yoder</a>                                         <a href="{{ url_for('gideon') }}" class="li-right">Gideon v. Wainwright</a></li>
+                    <li><a href="{{ url_for('tinker') }}" class="li-left">Tinker v. Des Moines Independent Community School District</a>    <a href="{{ url_for('roe') }}" class="li-right">Roe v. Wade</a></li>
+                    <li><a href="{{ url_for('schenck') }}" class="li-left">Schenck v. United States</a>                                     <a href="{{ url_for('brown') }}" class="li-right">Brown v. Board of Education</a></li>
+                    <li><a href="{{ url_for('nytc') }}" class="li-left">New York Times Co. v. United States</a>                             <a href="#" class="li-right"></a></li>
+                    </ul>
+                </div>
+                </nav>
+        </header>
+        
+        <div id="sections" class="container-xl d-flex flex-column content">
+            <section id="sec_1" class="section-home--intro text-light section-cover">
+                <h1 class="title">Engel v. Vitale</h1>
+                <p class="fst-italic" style="margin-top: 20vh;">1962</p>
+            </section>
 
-                <section id="sec_2" class="h-100 d-flex flex-column py-5 text-light text-bg-dark section-cover">
-                    <div class="mt-4 p-5">
-                        <p class="lh-lg">
-                            EXAMPLE:
-                            The New York State Board of Regents allowed schools to hold short prayers as long as they were voluntary, and so these prayers would be held every morning in several New York schools. A group of families who had students from the Herricks Union Free School District came together to argue against the prayer. They argued that its religious connotations aligned specifically with christianity, and so it favored one religion over another. Engel led their attempt and sued the school board president William J. Vitale Jr. Engel was Jewish and gained the support of many Jewish organizations and others who wanted to remove prayers from public schools. 
-                        </p>
-                    </div>
-                      
-                    <figure class="text-center">
-                        <blockquote class="blockquote">
-                            <p>A well-known quote, contained in a blockquote element.</p>
-                        </blockquote>
-                        <figcaption class="blockquote-footer">
-                            Someone famous in <cite title="Source Title">Source Title</cite>
-                        </figcaption>
-                    </figure>
-                    <!-- <div class="d-flex flex-row mb-3 justices-container">
-                        <div class="p-2"><img src="../static/images/justices/john_g_roberts.png"></div>
-                        <div class="p-2"><img src="../static/images/justices/antonin_scalia.png"></div>
-                        <div class="p-2"><img src="../static/images/justices/anthony_m_kennedy.png"></div>
-                        <div class="p-2"><img src="../static/images/justices/clarence_thomas.png"></div>
-                        <div class="p-2"><img src="../static/images/justices/ruth_bader_ginsburg.png"></div>
-                        <div class="p-2"><img src="../static/images/justices/stephen_g_breyer.png"></div>
-                        <div class="p-2"><img src="../static/images/justices/samuel_alito_jr.png"></div>
-                        <div class="p-2"><img src="../static/images/justices/sonia_sotomayor.png"></div>
-                        <div class="p-2"><img src="../static/images/justices/elena_kagan.png"></div>
-                    </div> -->
-                </section>
-            </div>
+            <section id="sec_2" class="h-100 d-flex flex-column py-5 text-light text-bg-dark section-cover">
+                <div class="mt-4 p-5">
+                    <p class="lh-lg">
+                        EXAMPLE:
+                        The New York State Board of Regents allowed schools to hold short prayers as long as they were voluntary, and so these prayers would be held every morning in several New York schools. A group of families who had students from the Herricks Union Free School District came together to argue against the prayer. They argued that its religious connotations aligned specifically with christianity, and so it favored one religion over another. Engel led their attempt and sued the school board president William J. Vitale Jr. Engel was Jewish and gained the support of many Jewish organizations and others who wanted to remove prayers from public schools. 
+                    </p>
+                </div>
+                    
+                <figure class="text-center">
+                    <blockquote class="blockquote">
+                        <p>A well-known quote, contained in a blockquote element.</p>
+                    </blockquote>
+                    <figcaption class="blockquote-footer">
+                        Someone famous in <cite title="Source Title">Source Title</cite>
+                    </figcaption>
+                </figure>
+                <!-- <div class="d-flex flex-row mb-3 justices-container">
+                    <div class="p-2"><img src="../static/images/justices/john_g_roberts.png"></div>
+                    <div class="p-2"><img src="../static/images/justices/antonin_scalia.png"></div>
+                    <div class="p-2"><img src="../static/images/justices/anthony_m_kennedy.png"></div>
+                    <div class="p-2"><img src="../static/images/justices/clarence_thomas.png"></div>
+                    <div class="p-2"><img src="../static/images/justices/ruth_bader_ginsburg.png"></div>
+                    <div class="p-2"><img src="../static/images/justices/stephen_g_breyer.png"></div>
+                    <div class="p-2"><img src="../static/images/justices/samuel_alito_jr.png"></div>
+                    <div class="p-2"><img src="../static/images/justices/sonia_sotomayor.png"></div>
+                    <div class="p-2"><img src="../static/images/justices/elena_kagan.png"></div>
+                </div> -->
+            </section>
         </div>
     </body>
 </html>
