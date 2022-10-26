@@ -44,13 +44,13 @@
                     </div>
                  </nav>
             </header>
-            <div id="sections" class="container-xl d-flex flex-column content" style="width: 100vw !important; margin: 0px !important;">
+            <div id="sections" class="container-xl d-flex flex-column content">
                 <section id="sec_1" class="section-home--intro text-light">
                     <h1 class="title">Engel v. Vitale</h1>
                     <p class="fst-italic" style="margin-top: 20vh;">1962</p>
                 </section>
 
-                <section id="sec_2" class="h-100 d-flex flex-column py-5 text-light text-bg-dark section-cover" style="width: 100vw !important; margin: 0px !important;">
+                <section id="sec_2" class="h-100 d-flex flex-column py-5 text-light text-bg-dark section-cover">
                     <div class="mt-4 p-5">
                         <p class="lh-lg">
                             EXAMPLE:
@@ -58,8 +58,8 @@
                         </p>
                     </div>
 
-                    <div class="justices-container d-inline-flex">
-                        <!-- ngRepeat: vote in decision.votes -->
+                    <!-- <div class="justices-container d-inline-flex">
+
                         <figure ng-class="[vote.vote, vote.orderClass]" ng-repeat="vote in decision.votes" class="ng-scope majority second">
                         <div class="thumbnail">
                             <img ng-src="https://api.oyez.org/sites/default/files/images/people/william_o_douglas/william_o_douglas.thumb.png" alt="William O. Douglas" src="https://api.oyez.org/sites/default/files/images/people/william_o_douglas/william_o_douglas.thumb.png">
@@ -69,7 +69,7 @@
                             <span class="short ng-binding">Douglas</span>
                         </figcaption>
                         </figure>
-                        <!-- end ngRepeat: vote in decision.votes -->
+
                         <figure ng-class="[vote.vote, vote.orderClass]" ng-repeat="vote in decision.votes" class="ng-scope majority fourth">
                         <div class="thumbnail">
                             <img ng-src="https://api.oyez.org/sites/default/files/images/people/potter_stewart/potter_stewart.thumb.png" alt="Potter Stewart" src="https://api.oyez.org/sites/default/files/images/people/potter_stewart/potter_stewart.thumb.png">
@@ -79,7 +79,7 @@
                             <span class="short ng-binding">Stewart</span>
                         </figcaption>
                         </figure>
-                        <!-- end ngRepeat: vote in decision.votes -->
+                        
                         <figure ng-class="[vote.vote, vote.orderClass]" ng-repeat="vote in decision.votes" class="ng-scope majority sixth">
                         <div class="thumbnail">
                             <img ng-src="https://api.oyez.org/sites/default/files/images/people/thurgood_marshall/thurgood_marshall.thumb.png" alt="Thurgood Marshall" src="https://api.oyez.org/sites/default/files/images/people/thurgood_marshall/thurgood_marshall.thumb.png">
@@ -89,7 +89,7 @@
                             <span class="short ng-binding">Marshall</span>
                         </figcaption>
                         </figure>
-                        <!-- end ngRepeat: vote in decision.votes -->
+                        
                         <figure ng-class="[vote.vote, vote.orderClass]" ng-repeat="vote in decision.votes" class="ng-scope majority third">
                         <div class="thumbnail">
                             <img ng-src="https://api.oyez.org/sites/default/files/images/people/william_j_brennan_jr/william_j_brennan_jr.thumb.png" alt="William J. Brennan, Jr." src="https://api.oyez.org/sites/default/files/images/people/william_j_brennan_jr/william_j_brennan_jr.thumb.png">
@@ -99,7 +99,7 @@
                             <span class="short ng-binding">Brennan</span>
                         </figcaption>
                         </figure>
-                        <!-- end ngRepeat: vote in decision.votes -->
+                        
                         <figure ng-class="[vote.vote, vote.orderClass]" ng-repeat="vote in decision.votes" class="ng-scope minority fifth">
                         <div class="thumbnail">
                             <img ng-src="https://api.oyez.org/sites/default/files/images/people/byron_r_white/byron_r_white.thumb.png" alt="Byron R. White" src="https://api.oyez.org/sites/default/files/images/people/byron_r_white/byron_r_white.thumb.png">
@@ -109,7 +109,7 @@
                             <span class="short ng-binding">White</span>
                         </figcaption>
                         </figure>
-                        <!-- end ngRepeat: vote in decision.votes -->
+                        
                         <figure ng-class="[vote.vote, vote.orderClass]" ng-repeat="vote in decision.votes" class="ng-scope majority first">
                         <div class="thumbnail">
                             <img ng-src="https://api.oyez.org/sites/default/files/images/people/warren_e_burger/warren_e_burger.thumb.png" alt="Warren E. Burger" src="https://api.oyez.org/sites/default/files/images/people/warren_e_burger/warren_e_burger.thumb.png">
@@ -119,7 +119,7 @@
                             <span class="short ng-binding">Burger</span>
                         </figcaption>
                         </figure>
-                        <!-- end ngRepeat: vote in decision.votes -->
+                        
                         <figure ng-class="[vote.vote, vote.orderClass]" ng-repeat="vote in decision.votes" class="ng-scope majority seventh">
                         <div class="thumbnail">
                             <img ng-src="https://api.oyez.org/sites/default/files/images/people/harry_a_blackmun/harry_a_blackmun.thumb.png" alt="Harry A. Blackmun" src="https://api.oyez.org/sites/default/files/images/people/harry_a_blackmun/harry_a_blackmun.thumb.png">
@@ -129,7 +129,7 @@
                             <span class="short ng-binding">Blackmun</span>
                         </figcaption>
                         </figure>
-                        <!-- end ngRepeat: vote in decision.votes -->
+                        
                         <figure ng-class="[vote.vote, vote.orderClass]" ng-repeat="vote in decision.votes" class="ng-scope majority eighth">
                         <div class="thumbnail">
                             <img ng-src="https://api.oyez.org/sites/default/files/images/people/lewis_f_powell_jr/lewis_f_powell_jr.thumb.png" alt="Lewis F. Powell, Jr." src="https://api.oyez.org/sites/default/files/images/people/lewis_f_powell_jr/lewis_f_powell_jr.thumb.png">
@@ -139,7 +139,7 @@
                             <span class="short ng-binding">Powell</span>
                         </figcaption>
                         </figure>
-                        <!-- end ngRepeat: vote in decision.votes -->
+                        
                         <figure ng-class="[vote.vote, vote.orderClass]" ng-repeat="vote in decision.votes" class="ng-scope minority ninth">
                         <div class="thumbnail">
                             <img ng-src="https://api.oyez.org/sites/default/files/images/people/william_h_rehnquist/william_h_rehnquist.thumb.png" alt="William H. Rehnquist" src="https://api.oyez.org/sites/default/files/images/people/william_h_rehnquist/william_h_rehnquist.thumb.png">
@@ -149,8 +149,8 @@
                             <span class="short ng-binding">Rehnquist</span>
                         </figcaption>
                         </figure>
-                        <!-- end ngRepeat: vote in decision.votes -->
-                    </div>
+                        
+                    </div> -->
                       
                     <!-- <div class="d-flex flex-row mb-3 justices-container">
                         <div class="p-2"><img src="../static/images/justices/john_g_roberts.png"></div>
