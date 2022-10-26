@@ -47,17 +47,9 @@ body {
 }
 
 #sections {
-    margin: 15vh 0px auto 0px !important;
-    width: 100%;
-}
-
-.section-cover {
-    margin: auto 0px auto 0px !important;
-    width: 100%;
-}
-
-#sec_1 {
-    margin-top: 15vh;
+    position: absolute;
+    top: 100vh;
+    left: 0;
 }
 
 /* navbar start */
