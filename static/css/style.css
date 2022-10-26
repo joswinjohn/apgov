@@ -48,10 +48,12 @@ body {
 
 #sections {
     margin: 0px !important;
+    width: 100%;
 }
 
 .section-cover {
     margin: 0px !important;
+    width: 100%;
 }
 
 /* navbar start */
