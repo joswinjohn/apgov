@@ -43,7 +43,7 @@ body {
 }
 
 .section-home--intro{
-    min-height: 100vh;
+    height: 85vh;
 }
 
 /* navbar start */
