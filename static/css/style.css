@@ -44,7 +44,7 @@ body {
 
 .section-home--intro{
     margin-top: 25vh;
-    height: 85vh;
+    height: 85vh !important;
 }
 
 /* navbar start */
@@ -192,10 +192,6 @@ ul.navbarul > li > .li-right { float: right }
 
 .fade-in:hover {
     color: #5c7cff !important;
-}
-
-#sec_1 {
-    margin-top: 10vh;
 }
 
 #title {
