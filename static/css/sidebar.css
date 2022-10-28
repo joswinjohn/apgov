@@ -2,4 +2,5 @@
     position: fixed;
     top: 40vh;
     left: 2vw;
+    z-index: 999;
 }
