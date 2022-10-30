@@ -1,4 +1,5 @@
 from flask import Flask, jsonify, render_template
+from markupsafe import escape
 import os
 
 app = Flask(__name__)
@@ -43,6 +44,10 @@ def roe():
 @app.route('/brown-board')
 def brown():
     return render_template('brown.html')
+
+@app.route('/pdf/<pdfn>')
+def pdf(pdfn):
+    return render_template('pdf.html', pdfn=(escape(pdfn)))
 
 if __name__ == '__main__':
     app.run(debug=True, port=os.getenv("PORT", default=5000))
