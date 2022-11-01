@@ -1,23 +1,17 @@
----
-title: Flask
-description: A popular minimal server framework for Python.
-tags:
-  - python
-  - flask
----
+# Civil Rights and Civil Liberties Project
 
-# Python Flask Example
+This project was created for the Unit 3 Project in AP Government and Politics, taught by Mr. Markham.
 
-This is a [Flask](https://flask.palletsprojects.com/en/1.1.x/) app that serves a simple JSON response.
+### Programming Languages
 
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/zUcpux)
+Python, JavaScript, HTML, and CSS were used to create this website.
 
-## ✨ Features
+### Frameworks
 
-- Python
-- Flask
+Flask, JQuery, Bootstrap, and Less were used in addition for running the webserver, increasing the functionality of the JavaScript, styling the HTML, and improving the functonality of the CSS, respectively.
 
-## 💁‍♀️ How to use
+### Viewing the Website
 
-- Install Python requirements `pip install -r requirements.txt`
-- Start the server for development `python3 main.py`
+You may view the site at [joswin.tk](https://joswin.tk). Please do not copy the code as it is owned by me and I put a lot of effort into it (so pls give me 100 Mr. Markham).
+
+&copy; Joswin John 2022-Present
