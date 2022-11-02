@@ -16,6 +16,16 @@
     <body style="margin: 0px !important; background-image: linear-gradient( rgba(0,0,0,.8), rgba(0,0,0,.8) ), url(../static/images/engelbg.jpg); ">
         <div id="bg"></div>
 
+        <div>
+            <ul id="sidebar" class="list-unstyled">
+                <li class=""><a href="#background">Background</a></li>
+                <li class=""><a href="#justices">Justices</a></li>
+                <li class=""><a href="#decision">Decision</a></li>
+                <li class=""><a href="#clauses">Clauses</a></li>
+                <li class=""><a href="#effects">Effects & Today</a></li>
+            </ul>
+        </div>
+
         <header>
             <nav>
                 <div class="menu-icon">
@@ -38,28 +48,33 @@
 
         <section id="title_sec" class="section-home--intro text-light text-center">
             <h1 class="title" style="margin-left: 10vh;">Schenck v. United States</h1>
-            <h3>7 - 0</h3>
+            <h3>9 - 0</h3>
         </section>
-
-        <div>
-            <ul id="sidebar" class="list-unstyled">
-                <li class=""><a href="#background">Background</a></li>
-                <li class=""><a href="#justices">Justices</a></li>
-                <li class=""><a href="#decision">Decision</a></li>
-                <li class=""><a href="#clauses">Clauses</a></li>
-                <li class=""><a href="#effects">Effects & Today</a></li>
-            </ul>
-        </div>
 
         <div id="sections" class="d-flex flex-column w-100 bg-dark" style="margin: auto !important;">
 
             <section id="background" class="h-100 d-flex flex-column text-light section-cover" style="margin: auto; width: 68%;">
                 <h3 class="pt-4 mt-5"> Background</h3>
 
-                <div class="mt-4 pb-3">
+                <div class="mt-4 mb-3">
                     <p class="lh-lg">
-                        Jonas Yoder, Wallace Miller and Adin Yutzy, were three Amish parents who would not let their children, Frieda Yoder, Barbara Miller and Vernon Yutzy, go to public school due to religious reasons, because high school teaches things that usually go against their religion. The Amish also typically learn trades like agriculture or craftsmanship around the age of 14-15 through apprenticeship, which is generally around 8th grade. In the case of these children both Frieda Yoder and Barbara Miller were 15, and Vernon Yutzy was 14, although the legal minimum to drop out of school was 16, which caused all three parents to be fined. Jonas Yoder and the other parents of course did not agree with this and filed a lawsuit against Wisconsin, which lost in multiple courts and appealed every time, until it finally won in the Wisconsin supreme court. This time Wisconsin appealed to the US Supreme Court, which was accepted.
+                        In 1917 The general secretary of the socialist party of America, Charles Schenck printed out over 15,000 copies of a paper that said the draft for WWI was unconstitutional and violated the 13th amendment, and so people should resist the draft. He distributed them from Philadelphia, and amassed a large number of people to sit back and not join the war. By doing this Schenck was supposedly violating The Espionage act of 1917 which gave the government the power to incriminate anyone who publicly criticized the war or tried to dissolve the draft, and so he was detained by the federal government along with his colleague Elizabeth Baer.
                     </p>
+                </div>
+
+                <div class="text-center">
+                    <blockquote class="blockquote font-italic" style="background: transparent;">
+                        <p class="fst-italic fw-light">
+                            Whoever, when the United States is at war ... shall willfully obstruct the recruiting or enlistment service of the United States, to the injury of the service or of the United States, shall be punished by a fine of not more than $10,000 or imprisonment for not more than twenty years, or both.
+                        </p>
+                    <blockquote>
+                    <figcaption class="blockquote-footer">
+                        <cite title="Source Title"><a href="{{ url_for('pdf', pdfn='espionage-act') }}">Espionage Act of 1917</a></cite>
+                    </figcaption>
+                </div>
+
+                <div class="mt-4 mb-3">
+                    Baer and Schneck fought in the district court for Pennsylvania and lost, so they appealed to the U.S. Supreme Court.
                 </div>
             </section>
 
@@ -68,7 +83,7 @@
 
                 <div class="mt-4 pb-5">
                     <p class="lh-lg">
-                        Chief Justice Warren Burger was selected by President Nixon who although Republican was not heavily partisan, and so he chose Burger who was also conservative but did not show too much partisanship. He was a constructionist and occasionally showed quite a bit of judicial activism in the court which is what Nixon wanted especially when he was trying to build support for the Vietnam war. The Burger Court in general is known as one of the last liberal courts, and was the transitional court between the heavy liberalism in the Warren court to the heavy conservatism in the Rehnquist court.
+                        Chief Justice Edward Douglass White was heavily conservative, along with his court. Conservatism in the supreme court was a trend in the early 1900s to the 1930s. Justice White also supported selective drafting in the Selective Draft cases. His court was not as conservative as previous courts, but was still generally conservative.
                     </p>
                 </div>
 
@@ -89,12 +104,12 @@
                 <div class="mt-4">
                     <div class="d-inline-block" style="float: left; width: 35%;">
                         <img alt="justiceburger" style="height: 55vh;" class="img-fluid rounded justice_imgs" src="../static/images/justices/warrenburger.jpg">
-                        <figcaption class="mt-3 mb-3">Warren Burger</figcaption>
+                        <figcaption class="mt-3 mb-3">Oliver Wendel Holmes</figcaption>
                     </div>
                     
                     <div class="d-inline-block justice_texts" style="float: right; width: 65%;">
                         <div class="mt-2 pb-5">
-                            Justice Warren Burger wrote the opinion of the court which stated under the Free Exercise Clause of the First Amendment, requiring children to attend school past 8th grade went against the parents rights to raise their children in their preferred religious manner. 
+                            Justice Oliver Wendell Holmes wrote the majority opinion for the unanimous decision, writing that the Espionage act is constitutional, and did not violate the first amendment. He defended his argument by writing that the first amendment only protected free speech when it did not create a “clear and present danger” to the nation. He believes that a major opposition to the draft would hinder the United States Armed Forces during WWI and in turn would create a sense of danger.
                         </div>
         
                         <div class="text-center">
