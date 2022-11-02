@@ -28,7 +28,7 @@ $(window).on("scroll", function() {
 var rotation = 0;
 $(document).on("click", "#menu-indicator", function () {
       rotation += 90;
-      $("#menu-indicator").rotate(rotation);
+      $("#menu-indicator").css({'transform' : 'rotate('+ rotation +'deg)'});
       console.log("Rotated: " + rotation);
 })
 
