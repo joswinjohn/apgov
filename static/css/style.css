@@ -170,6 +170,7 @@ nav ul li {
 
 .menu-icon {
     display: block;
+    transition: 1s;
 }
 /* previous @media end */
 /* navbar end */
