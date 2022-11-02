@@ -168,6 +168,10 @@ nav ul li {
     padding: 24px;
 }
 
+nav ul li .li-left {
+    margin-left: 46px;
+}
+
 .menu-icon {
     display: block;
 }
