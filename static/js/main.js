@@ -26,9 +26,10 @@ $(window).on("scroll", function() {
 
 // Rotate the hamburger menu by 90 degrees every time it is clicked
 var rotation = 0;
-$(document).on("click", ".menu-icon", function () {
+$(document).on("click", "#menu-indicator", function () {
       rotation += 90;
-      $(".menu-icon").rotate(rotation);
+      $("#menu-indicator").rotate(rotation);
+      console.log("Rotated: " + rotation);
 })
 
 
